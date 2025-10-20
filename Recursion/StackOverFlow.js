@@ -27,7 +27,7 @@
 
 // Print 1 to n using Recursion
 
-let n = 5;
+let n = 50;
 function fn(x) {
     if (x > n) {
         return;
@@ -39,6 +39,7 @@ function fn(x) {
 }
 
 fn(1)
+
 
 
 
