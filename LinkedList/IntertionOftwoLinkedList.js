@@ -1,5 +1,5 @@
 
-// 160. Intersection of Two Linked Lists [Leetcode Problem]
+// 160. Intersection of Two Linked Lists [Leetcode Problem solve]
 
 
 var getIntersectionNode = function (headA, headB) {
@@ -16,3 +16,6 @@ var getIntersectionNode = function (headA, headB) {
     }
     return null;
 };
+
+
+
