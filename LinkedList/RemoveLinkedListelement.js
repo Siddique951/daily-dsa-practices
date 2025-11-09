@@ -1,0 +1,20 @@
+
+
+// Remove linked list elements [Leetcode Problem 203]
+
+
+var removeElements = function (head, val) {
+    let sentinel = new ListNode();
+    sentinel.next = head;
+
+    let prev = sentinel;
+    while (prev && prev.next) {
+        if (prev.next.val === val) {
+            prev.next = prev.next.next;
+        }
+        else {
+            prev = prev.next;
+        }
+    }
+    return sentinel.next
+};
