@@ -1,5 +1,5 @@
 
-// Remove Nth Node From End of List [Leetcode Porblem]
+// Remove Nth Node From End of List [Leetcode Porblem 19]
 
 var removeNthFromEnd = function (head, n) {
     let sentinel = new ListNode();
